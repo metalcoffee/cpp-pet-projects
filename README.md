@@ -1,1 +1,1 @@
-# cpp_pet_projects
+# cpp-pet-projects
