@@ -1,0 +1,10 @@
+t1-01-with-quit
+t1-02-with-exit
+t1-03-eof
+t2-01-spaces
+t2-02-invalid
+t2-03-incomplete
+t3-01-positive
+t3-02-turn-around
+t3-03-negative
+t3-04-macro
