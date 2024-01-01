@@ -8,6 +8,7 @@
 #define TASK_3
 #define TASK_4
 #define TASK_5
+#define TASK_6
 
 #ifdef TASK_1
 TEST_CASE("Constructor") {

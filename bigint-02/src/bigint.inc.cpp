@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 
-const int BASE = 1000;
+const int BASE = 10;
 
 const int power_ten = [] {
     int pow = 0;
@@ -151,6 +151,18 @@ public:
         auto copy = *this;
         *this -= 1;
         return copy;
+    }
+
+    friend std::ostream &operator<<(std::ostream &os, const bigint &b) {
+        os << b.to_string();
+        return os;
+    }
+
+    friend std::istream &operator>>(std::istream &is, bigint &b) {
+        std::string input;
+        is >> input;
+        b = bigint(input);
+        return is;
     }
 
     // befriend all operators
