@@ -132,10 +132,10 @@ std::cin >> y;  // Должен прочитать число со станда�
     Этого можно добиться при помощи [boost::small_vector](https://www.boost.org/doc/libs/1_77_0/doc/html/boost/container/small_vector.html) или его аналога вместо `std::vector`,
     но вам это делать не требуется.
 
-####To compile:
+#### To compile:
 
-* $ g++ -std=c++17 doctest_main.cpp -c
-*
-* $ g++ -std=c++17  tests.cpp doctest_main.o  -o a
+* $ g++ -std=c++17 doctest_main.cpp -c *
+
+* $ g++ -std=c++17  tests.cpp doctest_main.o  -o a *
 
 
