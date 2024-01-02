@@ -134,8 +134,8 @@ std::cin >> y;  // Должен прочитать число со станда�
 
 #### To compile:
 
-* $ g++ -std=c++17 doctest_main.cpp -c *
+` $ g++ -std=c++17 doctest_main.cpp -c `
 
-* $ g++ -std=c++17  tests.cpp doctest_main.o  -o a *
+` $ g++ -std=c++17  tests.cpp doctest_main.o  -o a `
 
 
