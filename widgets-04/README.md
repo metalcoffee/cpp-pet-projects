@@ -152,5 +152,6 @@
 
 ## Compile
 $ g++ -std=c++17 doctest_main.cpp -c
+
 $ g++ -std=c++17 abstract_widgets.h button.h button_test.cpp doctest.h doctest_main.o placeholder.h test_utils.h ball_icon.h ball_icon_test.cpp box.h box_test.cpp 
 
